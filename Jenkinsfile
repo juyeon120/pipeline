@@ -16,10 +16,5 @@ pipeline{
                 echo 'Code Analysis Completed Successfully'
             }
         }
-        stage('Deploy'){
-            steps{
-                echo 'Deployed Successfully'
-            }
-        }
     }
 }
