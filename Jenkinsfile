@@ -2,7 +2,7 @@ pipeline{
     agent any
     stages{
         stage('Compile'){
-            stpes{
+            steps{
                 echo 'Compiled Successfully'
             }
         }
